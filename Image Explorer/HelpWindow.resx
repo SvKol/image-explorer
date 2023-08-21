@@ -1,0 +1,81 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Image Explorer is a program, developed by WereElf, and is meant to make browsing and organising one's images easier, by adding keywords (or tags) to the images and then being able to filter them, according to the tags.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Search - search for an image with specific name of artist, ignoring the currently selected filters. Right clicking this button applies a special search, which filters images with the same size (and can be duplicates)</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Refresh - refresh the loaded images. Can be used when you add new images to a managed folder in order for the program to load them. Or when you've applied new tags to images and they are no longer valid for the filters</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Left clicking on the tag highlights it in green, which means that the image must have the tag in order to be shown. If multiple tags are highlighted in green, then an image must have ALL of the selected tags in order to be shown. Clicking on highlighted tags again deselects them.</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>In the "Filter tags" panel, the user can select which tags to use for the operation. If no tags are selected, all images will be shown. If the "Untagged" is selected - only images with no tags will be shown, unless another tag is also selected, in which case it will filter the images with the other tag, and add all untagged images as well.</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>If "C" is always "B", then applying C will apply both B and A, without it having to directly have "A". A more realistic example for how this can be used is: You have tags "Night Elf", "Elf", "Wow", "Tyrande", "Character" - "Night Elf" can always be "Elf", "Wow" and "Character", while "Tyrande" can have the tag "Night Elf".</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>The user can create new tags from the button "Add Tag", which is visible, while the Manage tags panel is open. There they can select the tag's keyword, the group it belongs to, and what other tags does it bring. For example, if "B" is always "A", when B is applied to an image, it will automatically also get A. However, removing B will not remove A.</value>
+  </data>
+</root>

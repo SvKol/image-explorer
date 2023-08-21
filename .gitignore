@@ -1,0 +1,11 @@
+*.vsidx
+Image Explorer/obj/Release/net6.0-windows/Image Explorer.csproj.FileListAbsolute.txt
+.vs/ProjectEvaluation/image explorer.projects.v5.1
+.vs/ProjectEvaluation/image explorer.metadata.v5.1
+.vs/Image Explorer/v17/.futdcache.v2
+.vs/Image Explorer/DesignTimeBuild/.dtbcache.v2
+Image Explorer/MainForm.resx
+Image Explorer/obj/Debug/
+Image Explorer/obj/Release/
+Image Explorer/bin/Debug/
+Image Explorer/bin/Release/
